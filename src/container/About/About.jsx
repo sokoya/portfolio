@@ -27,6 +27,7 @@ useEffect(() => {
       .then((data) => setAbouts( data ))
 }, []);
 
+
   return (
     <>
       <Helmet>
