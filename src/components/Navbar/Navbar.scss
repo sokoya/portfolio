@@ -21,8 +21,8 @@
     align-items: center;
   
     img {
-      width: 180px;
-      height: 30px;
+      width: 120px;
+      height: 20px;
   
       @media screen and (min-width: 2000px) {
         width: 180px;
@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-color);
-  
+
   
     svg {
       width: 70%;
@@ -99,7 +99,7 @@
       color: var(--white-color);
     }
   
-    div {
+    .app__navbar-menu-links {
       position: fixed;
       top: 0;
       bottom: 0;
@@ -123,7 +123,7 @@
   
       /* top box shadow */
       box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
-  
+      
       svg {
         width: 35px;
         height: 35px;
@@ -161,7 +161,7 @@
           }
         }
       }
-  
+
       @media screen and (min-width: 900px) {
         display: none;
       }
