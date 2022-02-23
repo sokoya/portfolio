@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
-import { Helmet } from 'react-helmet';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -27,11 +26,6 @@ const Skills = () => {
   
   return (
     <>
-      <Helmet>
-          <title>My Skills - Sokoya Philip</title>
-          <link rel="canonical" href="https://www.sokoyaphilip.com#skills" />
-          <meta name="description" content="I have vast knowledge with the technology that your business needs to stand the test of time. React Native developer, ReactJS programmer, PHP Programmer, MongoDB Developer..." />
-      </Helmet>
       <h2 className="head-text">Skills & Experiences</h2>
 
       <div className="app__skills-container">

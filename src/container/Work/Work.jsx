@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -39,11 +38,6 @@ const Work = () => {
 
   return (
     <>
-      <Helmet>
-          <title>My Works - Sokoya Philip</title>
-          <link rel="canonical" href="https://www.sokoyaphilip.com#works" />
-          <meta name="description" content="A fintect programmer, ecommerce developer, educational programmer. Lets talk about your idea. I am versatile." />
-      </Helmet>
       <h5 className="head-text" style={{ fontSize: '26px', margin: '0 0'}}>Here are a few projects I've worked on recently. Want to see more? <span><a href='mailto:hello@sokoyaphilip.com'>Email me</a></span></h5>
 
       <div className="app__work-filter">

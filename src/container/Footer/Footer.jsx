@@ -1,5 +1,5 @@
-import React , { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import React , { useState } from 'react';
+
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -40,14 +40,6 @@ const Footer = () => {
         return;
       }
   }
-
-  useEffect(() => {
-    <Helmet>
-        <title>Contact Me - Sokoya Philip</title>
-        <link rel="canonical" href="https://www.sokoyaphilip.com#contact" />
-        <meta name="description" content="Hire Sokoya Philip, Nigerian Software Engineneer, frontend developer, backend developer, IT Consultant." />
-    </Helmet>
-  }, []);
   return (
     <>
       <h2 className='head-text' style={{ fontSize: '26px'}}>Lets discuss about your next project.</h2>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
+
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -31,12 +31,6 @@ const Testimonial = () => {
 
   return (
     <>
-      <Helmet>
-          <title>Testimonials - Sokoya Philip</title>
-          <link rel="canonical" href="https://www.sokoyaphilip.com#testimonial" />
-          <meta name="description" content="Sokoya Philip is agreat Nigerian Software engineer I have ever come across. - Dr Dimitry." />
-      </Helmet>
-      
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
